@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Um gap entre as duas divs */
+    gap: 5vh;
+}
+.button {
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    background-color: lightgrey;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.red:hover {
+    background-color: red;
+    color: #fff;
+    box-shadow: 0 0 5px 0 #000;
+}
+.yellow:hover {
+    background-color: yellow;
+    color: #000;
+    box-shadow: 0 0 5px 0 #000;
+}
+.green:hover {
+    background-color: green;
+    color: #fff;
+    box-shadow: 0 0 5px 0 #000;
+}
+.automatic:hover {
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 5px 0 #000;
+}
